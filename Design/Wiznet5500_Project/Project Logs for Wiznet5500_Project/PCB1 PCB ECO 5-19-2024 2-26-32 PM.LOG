@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=MISO Pin=J2-01
+Removed Pin From Net: NetName=MOSI Pin=J2-02
+Removed Pin From Net: NetName=3V3D Pin=J3-01
+Removed Pin From Net: NetName=5V Pin=J3-02
+Removed Member From Class: ClassName=Sheet1 Member=J2
+Added Component: Designator=J6(SAMTEC_TSW-101-07-F-D)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TSW-101-07-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MISO Pin=J3-01
+Added Pin To Net: NetName=MOSI Pin=J3-02
+Added Pin To Net: NetName=3V3D Pin=J6-01
+Added Pin To Net: NetName=5V Pin=J6-02
+Added Member To Class: ClassName=Sheet1 Member=Component J6 TSW-101-07-F-D

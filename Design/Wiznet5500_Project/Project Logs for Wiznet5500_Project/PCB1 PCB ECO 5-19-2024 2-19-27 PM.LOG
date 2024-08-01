@@ -1,0 +1,31 @@
+Change Component Footprint: Designator=J2 Old Footprint=640445-6_TYC New Footprint=SAMTEC_TSW-101-07-F-D
+Change Component Comment : Designator=J2 Old Comment=640445-6 New Comment=TSW-101-07-F-D
+Change component parameters: Designator = "J2" ("J2"); Footprint = "640445-6_TYC"; UniqueID = "\CTSZVYHI" ("\CTSZVYHI")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TSW-101-07-F-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J4(SAMTEC_TSW-101-07-F-D)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TSW-101-07-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J5(SAMTEC_TSW-101-07-F-D)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TSW-101-07-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MISO Pin=J2-01
+Added Pin To Net: NetName=MOSI Pin=J2-02
+Added Pin To Net: NetName=SCK Pin=J4-01
+Added Pin To Net: NetName=CS Pin=J4-02
+Added Pin To Net: NetName=INT Pin=J5-01
+Added Pin To Net: NetName=RST Pin=J5-02
+Added Member To Class: ClassName=Sheet1 Member=Component J4 TSW-101-07-F-D
+Added Member To Class: ClassName=Sheet1 Member=Component J5 TSW-101-07-F-D

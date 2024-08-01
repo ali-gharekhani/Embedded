@@ -1,0 +1,21 @@
+Added Component: Designator=J1(ABRACON_ARJM11D7-009-AB-EW2)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Abracon LLC'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ARJM11D7-009-AB-EW2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetC3_1 Pin=J1-3
+Added Pin To Net: NetName=NetC1_1 Pin=J1-4
+Added Pin To Net: NetName=NetC7_2 Pin=J1-5
+Added Pin To Net: NetName=NetC2_1 Pin=J1-6
+Added Pin To Net: NetName=CGND Pin=J1-8
+Added Pin To Net: NetName=3V3D Pin=J1-9
+Added Pin To Net: NetName=NetJ1_10 Pin=J1-10
+Added Pin To Net: NetName=3V3D Pin=J1-11
+Added Pin To Net: NetName=NetJ1_12 Pin=J1-12
+Added Pin To Net: NetName=CGND Pin=J1-SH1
+Added Pin To Net: NetName=CGND Pin=J1-SH2
+Added Member To Class: ClassName=Sheet1 Member=Component J1 ARJM11D7-009-AB-EW2

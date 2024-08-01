@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=5VOUT Pin=J2-1
+Removed Pin From Net: NetName=DOUTT_N Pin=J2-2
+Removed Pin From Net: NetName=DOUTT_P Pin=J2-3
+Removed Pin From Net: NetName=GND2 Pin=J2-4
+Removed Pin From Net: NetName=GND2 Pin=J2-SH1
+Removed Pin From Net: NetName=GND2 Pin=J2-SH2
+Removed Pin From Net: NetName=DINT_N Pin=R3-3
+Added Component: Designator=J2(TE_1932638-3)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1932638-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1932638-3/TE%20Connectivity%20AMP%20Connectors/view-part/563450/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-1932638-3.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5VOUT Pin=J2-1
+Added Pin To Net: NetName=DOUTT_N Pin=J2-2
+Added Pin To Net: NetName=DOUTT_P Pin=J2-3
+Added Pin To Net: NetName=GND2 Pin=J2-4
+Added Pin To Net: NetName=GND2 Pin=J2-SH1
+Added Pin To Net: NetName=GND2 Pin=J2-SH2
+Add Pin To Net: Unknown Pin: Pin R3-1

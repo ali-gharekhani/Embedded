@@ -1,0 +1,154 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "CC0805N_YAG")
+Pad (Name "1") (Location -32.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 42, 48) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 32.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 42, 48) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-9.5, 24)
+Point (9.5, 24)
+Point (9.5, -24)
+Point (-9.5, -24)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-9.5, 22)
+Point (9.5, 22)
+Point (9.5, -22)
+Point (-9.5, -22)
+EndPolygon
+Line (Width 6) (Start -63.5, -34) (End -63.5, 34) (Layer Mechanical15) 
+Line (Width 6) (Start -63.5, 34) (End 63.5, 34) (Layer Mechanical15) 
+Line (Width 6) (Start 63.5, 34) (End 63.5, -34) (Layer Mechanical15) 
+Line (Width 6) (Start 63.5, -34) (End -63.5, -34) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-63.5, -34)
+Point (-63.5, 34)
+Point (63.5, 34)
+Point (63.5, -34)
+EndPolygon
+Line (Width 1) (Start -11.5, -24) (End -11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -11.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End -11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, 24) (End 11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End 11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Step (Name CC0805N_YAG.step)
+EndFootprint
+
+Footprint (Name "CC0805N_YAG-L")
+Pad (Name "1") (Location -28.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 34, 46) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 28.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 34, 46) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-9.5, 24)
+Point (9.5, 24)
+Point (9.5, -24)
+Point (-9.5, -24)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-9.5, 22)
+Point (9.5, 22)
+Point (9.5, -22)
+Point (-9.5, -22)
+EndPolygon
+Line (Width 6) (Start -49.5, -27) (End -49.5, 27) (Layer Mechanical15) 
+Line (Width 6) (Start -49.5, 27) (End 49.5, 27) (Layer Mechanical15) 
+Line (Width 6) (Start 49.5, 27) (End 49.5, -27) (Layer Mechanical15) 
+Line (Width 6) (Start 49.5, -27) (End -49.5, -27) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-49.5, -27)
+Point (-49.5, 27)
+Point (49.5, 27)
+Point (49.5, -27)
+EndPolygon
+Line (Width 1) (Start -11.5, -24) (End -11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -11.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End -11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, 24) (End 11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End 11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Step (Name CC0805N_YAG.step)
+EndFootprint
+
+Footprint (Name "CC0805N_YAG-M")
+Pad (Name "1") (Location -36.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 50, 50) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 36.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 50, 50) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-9.5, 24)
+Point (9.5, 24)
+Point (9.5, -24)
+Point (-9.5, -24)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-9.5, 22)
+Point (9.5, 22)
+Point (9.5, -22)
+Point (-9.5, -22)
+EndPolygon
+Line (Width 6) (Start -81.5, -45) (End -81.5, 45) (Layer Mechanical15) 
+Line (Width 6) (Start -81.5, 45) (End 81.5, 45) (Layer Mechanical15) 
+Line (Width 6) (Start 81.5, 45) (End 81.5, -45) (Layer Mechanical15) 
+Line (Width 6) (Start 81.5, -45) (End -81.5, -45) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-81.5, -45)
+Point (-81.5, 45)
+Point (81.5, 45)
+Point (81.5, -45)
+EndPolygon
+Line (Width 1) (Start -11.5, -24) (End -11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -11.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End -11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, 24) (End 11.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 11.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End 11.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -24) (End 39.5, -24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -24) (End 39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, 24) (End -39.5, 24) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, 24) (End -39.5, -24) (Layer Mechanical13) 
+Step (Name CC0805N_YAG.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "CC0805KRX7R9BB104") (PartCount 1) (DesPrefix "C?")
+Pin (Location 200, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 1) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 137, -75) (End 137, 75) (Part 1)
+Line (Width 8) (Start 162, -75) (End 162, 75) (Part 1)
+Line (Width 8) (Start 162, 0) (End 200, 0) (Part 1)
+Line (Width 8) (Start 100, 0) (End 137, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Yageo") (Part 1)
+Parameter (Name "Type") (Location 150, -300) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 150, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "CC0805N_YAG")
+EndComponent
+EndComponents

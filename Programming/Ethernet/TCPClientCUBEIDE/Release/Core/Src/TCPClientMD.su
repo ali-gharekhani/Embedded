@@ -1,0 +1,7 @@
+../Core/Src/TCPClientMD.c:181:13:tcp_client_connection_close	16	static
+../Core/Src/TCPClientMD.c:167:8:tcp_client_send.isra	8	static
+../Core/Src/TCPClientMD.c:76:8:tcp_client_recieve	32	static
+../Core/Src/TCPClientMD.c:127:8:tcp_client_poll	8	static
+../Core/Src/TCPClientMD.c:149:14:tcp_client_sent	8	static
+../Core/Src/TCPClientMD.c:41:14:tcp_client_connected	24	static
+../Core/Src/TCPClientMD.c:31:6:tcp_client_init	16	static

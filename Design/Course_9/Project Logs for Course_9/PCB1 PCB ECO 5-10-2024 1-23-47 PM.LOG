@@ -1,0 +1,14 @@
+Added Component: Designator=J2(CONN4_1932638-3_TEC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5VOUT Pin=J2-1
+Added Pin To Net: NetName=DOUTT_N Pin=J2-2
+Added Pin To Net: NetName=DOUTT_P Pin=J2-3
+Added Pin To Net: NetName=GND2 Pin=J2-4
+Added Pin To Net: NetName=GND2 Pin=J2-5
+Added Pin To Net: NetName=GND2 Pin=J2-6
+Added Pin To Net: NetName=GND2 Pin=J2-7
+Added Pin To Net: NetName=GND2 Pin=J2-8
+Add Pin To Net: Unknown Pin: Pin R3-1
+Added Member To Class: ClassName=Sheet1 Member=Component J2 1932638-3

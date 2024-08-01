@@ -1,0 +1,157 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RES_CRCW_0603")
+Pad (Name "1") (Location -26.5, 0) (Surface True) (Rotation 0) (ExpandMask -18.5) (ExpandPaste -18.5)
+PadShape (Size 28, 37) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 26.5, 0) (Surface True) (Rotation 0) (ExpandMask -18.5) (ExpandPaste -18.5)
+PadShape (Size 28, 37) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-10.5, 18.5)
+Point (10.5, 18.5)
+Point (10.5, -18.5)
+Point (-10.5, -18.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-10.5, 16.5)
+Point (10.5, 16.5)
+Point (10.5, -16.5)
+Point (-10.5, -16.5)
+EndPolygon
+Line (Width 6) (Start -50.5, -28.5) (End -50.5, 28.5) (Layer Mechanical15) 
+Line (Width 6) (Start -50.5, 28.5) (End 50.5, 28.5) (Layer Mechanical15) 
+Line (Width 6) (Start 50.5, 28.5) (End 50.5, -28.5) (Layer Mechanical15) 
+Line (Width 6) (Start 50.5, -28.5) (End -50.5, -28.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-50.5, -28.5)
+Point (-50.5, 28.5)
+Point (50.5, 28.5)
+Point (50.5, -28.5)
+EndPolygon
+Line (Width 1) (Start -12.5, -18.5) (End -12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End -12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 18.5) (End 12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End 12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Step (Name RES_CRCW_0603.step)
+EndFootprint
+
+Footprint (Name "RES_CRCW_0603-L")
+Pad (Name "1") (Location -25.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 26, 35) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 25.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 26, 35) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-10.5, 18.5)
+Point (10.5, 18.5)
+Point (10.5, -18.5)
+Point (-10.5, -18.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-10.5, 16.5)
+Point (10.5, 16.5)
+Point (10.5, -16.5)
+Point (-10.5, -16.5)
+EndPolygon
+Line (Width 6) (Start -42.5, -21.5) (End -42.5, 21.5) (Layer Mechanical15) 
+Line (Width 6) (Start -42.5, 21.5) (End 42.5, 21.5) (Layer Mechanical15) 
+Line (Width 6) (Start 42.5, 21.5) (End 42.5, -21.5) (Layer Mechanical15) 
+Line (Width 6) (Start 42.5, -21.5) (End -42.5, -21.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-42.5, -21.5)
+Point (-42.5, 21.5)
+Point (42.5, 21.5)
+Point (42.5, -21.5)
+EndPolygon
+Line (Width 1) (Start -12.5, -18.5) (End -12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End -12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 18.5) (End 12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End 12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Step (Name RES_CRCW_0603.step)
+EndFootprint
+
+Footprint (Name "RES_CRCW_0603-M")
+Pad (Name "1") (Location -33.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 42, 39) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 33.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 42, 39) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-10.5, 18.5)
+Point (10.5, 18.5)
+Point (10.5, -18.5)
+Point (-10.5, -18.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-10.5, 16.5)
+Point (10.5, 16.5)
+Point (10.5, -16.5)
+Point (-10.5, -16.5)
+EndPolygon
+Line (Width 6) (Start -74.5, -39.5) (End -74.5, 39.5) (Layer Mechanical15) 
+Line (Width 6) (Start -74.5, 39.5) (End 74.5, 39.5) (Layer Mechanical15) 
+Line (Width 6) (Start 74.5, 39.5) (End 74.5, -39.5) (Layer Mechanical15) 
+Line (Width 6) (Start 74.5, -39.5) (End -74.5, -39.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-74.5, -39.5)
+Point (-74.5, 39.5)
+Point (74.5, 39.5)
+Point (74.5, -39.5)
+EndPolygon
+Line (Width 1) (Start -12.5, -18.5) (End -12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End -12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 18.5) (End 12.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End 12.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, -18.5) (End 32.5, -18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, -18.5) (End 32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start 32.5, 18.5) (End -32.5, 18.5) (Layer Mechanical13) 
+Line (Width 1) (Start -32.5, 18.5) (End -32.5, -18.5) (Layer Mechanical13) 
+Step (Name RES_CRCW_0603.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "CRCW060324R0FKEA") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Visible "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 1) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Vishay") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "RES_CRCW_0603")
+EndComponent
+EndComponents

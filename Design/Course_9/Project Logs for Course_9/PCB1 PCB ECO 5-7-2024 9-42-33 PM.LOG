@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=DINT_P Pin=U4-3
+Added Pin To Net: NetName=DIN_P Pin=U4-3
